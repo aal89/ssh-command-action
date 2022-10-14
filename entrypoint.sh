@@ -11,7 +11,7 @@ Host server
     User ${INPUT_USER}
     Port ${INPUT_PORT}
     IdentityFile /root/.ssh/id_rsa.key
-    AddressFamily IPv6
+    AddressFamily inet6
 END
 
 # Execute the command
